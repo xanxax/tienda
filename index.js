@@ -9,7 +9,6 @@ const { SalesAPI } = require('./src/sales/index');
 const { IndexAPI, NotFoundAPI } = require('./src/index/index');
 
 const app = express();
-console.log("hola");
 app.use(express.json());
 
 //modulos
